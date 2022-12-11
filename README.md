@@ -11,6 +11,8 @@ npm install @tryfabric/martian
 
 ```bash
 node md2notion.js -a <auth> -d <database> -f <file>
+# or
+node md2notion.js --auth <auth> --database <database> --file <file>
 ```
 
 - \<auth\>: notion integration token
