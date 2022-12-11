@@ -1,4 +1,4 @@
-# md2notion
+# Markdown to Notion
 
 Import markdown to notion using [Martian](https://github.com/tryfabric/martian) and [Notion SDK for JavaScript](https://github.com/makenotion/notion-sdk-js).
 
