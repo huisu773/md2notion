@@ -1,6 +1,10 @@
 name: Build/release
 
-on: push
+on:
+  push:
+      paths:
+        - 'md2notion-electron/**'
+        - '.github/**'
 
 jobs:
   release:
@@ -22,6 +26,7 @@ jobs:
       - name: Build/release Electron app
         uses: wenwuwu/action-electron-forge@v1.4.0
         with:
+          package_root: "./md2notion-electron"
           # GitHub token, automatically provided to the action
           # (No need to define this secret in the repo settings)
           github_token: ${{ secrets.github_token }}
