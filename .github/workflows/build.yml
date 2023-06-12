@@ -24,7 +24,7 @@ jobs:
           node-version: 16
 
       - name: Build/release Electron app
-        uses: wenwuwu/action-electron-forge@v1.4.0
+        uses: KL13NT/action-electron-forge@0.0.1
         with:
           package_root: "./md2notion-electron"
           # GitHub token, automatically provided to the action
