@@ -11,7 +11,7 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\"",
     "postinstall": "electron-builder install-app-deps",
-		"build": "run-s build:*"
+		"build": "electron-builder --mac --windows --linux"
   },
   "keywords": [],
   "author": {
