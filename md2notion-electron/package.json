@@ -19,7 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "@notionhq/client": "^2.2.5",
-    "@tryfabric/martian": "^1.2.4"
+    "@tryfabric/martian": "^1.2.4",
+    "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.1.1",
