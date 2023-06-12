@@ -6,6 +6,10 @@ Support equations and other markdown elements in [Martian](https://github.com/tr
 
 ## Usage
 
+Download from [release](https://github.com/huisui773/md2notion/releases/) page.
+
+Or download `md2notion.js` and use cli:
+
 ```sh
 npm install @notionhq/client
 npm install @tryfabric/martian
