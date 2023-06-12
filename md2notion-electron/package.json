@@ -1,5 +1,5 @@
 {
-  "name": "md2notion-electron",
+  "name": "md2notion",
   "productName": "md2notion",
   "version": "1.0.0",
   "description": "Import markdown to notion",
