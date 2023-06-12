@@ -4,6 +4,7 @@ on:
   push:
       paths:
         - 'md2notion-electron/**'
+        - '.github/**'
 
 jobs:
   release:
