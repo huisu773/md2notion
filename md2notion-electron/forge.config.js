@@ -19,4 +19,16 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'huisui773',
+          name: 'md2notion',
+        },
+        draft: true,
+      },
+    },
+  ],
 };
