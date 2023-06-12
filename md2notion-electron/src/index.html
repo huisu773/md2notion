@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Markdown to Notion</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f5f5f5;
+      }
+      input[type="text"], input[type="password"] {
+        display: block;
+        margin-bottom: 10px;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        width: 50%;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      button {
+        padding: 8px 16px;
+        background-color: #0076d6;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0051a2;
+      }
+      #drop-area {
+        border: 2px dashed #ccc;
+        border-radius: 4px;
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      #drop-area.highlight {
+        border-color: #0076d6;
+      }
+      #status-icon {
+        /* Add these new properties */
+        font-size: 18px;
+        color: green;
+        /* Remove the margin-right property */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Markdown to Notion</h1>
+    <div id="drop-area">
+      <p>Drop your Markdown files here</p>
+    </div>
+    <div id="file-status">
+      <span id="status-icon" hidden>&#10003;</span>
+      <span id="file-name"></span>
+    </div>
+    <label for="auth">Auth Token:</label>
+    <input type="password" id="auth" />
+    <label for="database-id">Database ID:</label>
+    <input type="text" id="database-id" />
+    <button id="submit">Submit</button>
+    <a href="https://developers.notion.com/docs/create-a-notion-integration" target="_blank">How to get Auth Token and Database ID</a>
+    <script src="renderer.js"></script>
+  </body>
+</html>
