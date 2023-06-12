@@ -9,12 +9,11 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\"",
-    "postinstall": "electron-builder install-app-deps"
+    "lint": "echo \"No linting configured\""
   },
   "keywords": [],
   "author": {
-    "name": "huisuii",
+    "name": "huisui773",
     "email": "hsshhsxm@gmail.com"
   },
   "license": "MIT",
@@ -24,7 +23,6 @@
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
-    "electron-builder": "^23.6.0",
     "@electron-forge/cli": "^6.1.1",
     "@electron-forge/maker-deb": "^6.1.1",
     "@electron-forge/maker-rpm": "^6.1.1",
