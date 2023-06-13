@@ -4,6 +4,8 @@ Import markdown to notion using [Martian](https://github.com/tryfabric/martian) 
 
 Support equations and other markdown elements in [Martian](https://github.com/tryfabric/martian).
 
+![](image.png)
+
 ## Usage
 
 Download from [release](https://github.com/huisui773/md2notion/releases/) page.
